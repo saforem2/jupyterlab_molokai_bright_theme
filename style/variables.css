@@ -197,11 +197,18 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from light to dark.
    */
 
-  --jp-layout-color0: white;
-  --jp-layout-color1: white;
-  --jp-layout-color2: var(--md-grey-200);
-  --jp-layout-color3: var(--md-grey-400);
-  --jp-layout-color4: var(--md-grey-600);
+  /* --jp-layout-color0: white; */
+  /* --jp-layout-color1: white; */
+  /* --jp-layout-color2: var(--md-grey-200); */
+  /* --jp-layout-color3: var(--md-grey-400); */
+  /* --jp-layout-color4: var(--md-grey-600); */
+   --jp-layout-color0: #1c1c1c;
+   --jp-layout-color1: #303030;
+   --jp-layout-color2: #454545;
+   --jp-layout-color3: #595959;
+   --jp-layout-color4: #6e6e6e;
+   --jp-layout-color5: #828282;
+   --jp-layout-color6: #ababab;
 
   /* Inverse Layout
    *
@@ -209,11 +216,19 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from dark to light.
    */
 
-  --jp-inverse-layout-color0: #111111;
-  --jp-inverse-layout-color1: var(--md-grey-900);
-  --jp-inverse-layout-color2: var(--md-grey-800);
-  --jp-inverse-layout-color3: var(--md-grey-700);
-  --jp-inverse-layout-color4: var(--md-grey-600);
+  /* --jp-inverse-layout-color0: #111111; */
+  /* --jp-inverse-layout-color1: var(--md-grey-900); */
+  /* --jp-inverse-layout-color2: var(--md-grey-800); */
+  /* --jp-inverse-layout-color3: var(--md-grey-700); */
+  /* --jp-inverse-layout-color4: var(--md-grey-600); */
+
+   --jp-inverse-layout-color0: #FFFFFF;
+   --jp-inverse-layout-color1: #d6d6d6;
+   --jp-inverse-layout-color2: #c2c2c2;
+   --jp-inverse-layout-color3: #adadad;
+   --jp-inverse-layout-color4: #999999;
+   --jp-inverse-layout-color5: #707070;
+
 
   /* Brand/accent */
 
@@ -327,36 +342,34 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* General editor styles */
 
-  --jp-editor-selected-background: #d9d9d9;
-  --jp-editor-selected-focused-background: #d7d4f0;
+  --jp-editor-selected-background: #111111;
+  --jp-editor-selected-focused-background: #535353;
   --jp-editor-cursor-color: var(--jp-ui-font-color0);
 
-  /* Code mirror specific styles */
-
-  --jp-mirror-editor-keyword-color: #008000;
-  --jp-mirror-editor-atom-color: #88f;
-  --jp-mirror-editor-number-color: #080;
-  --jp-mirror-editor-def-color: #00f;
-  --jp-mirror-editor-variable-color: var(--md-grey-900);
-  --jp-mirror-editor-variable-2-color: #05a;
-  --jp-mirror-editor-variable-3-color: #085;
-  --jp-mirror-editor-punctuation-color: #05a;
-  --jp-mirror-editor-property-color: #05a;
+  --jp-mirror-editor-keyword-color: #B2FF59;
+  --jp-mirror-editor-atom-color: #abc6ff;
+  --jp-mirror-editor-number-color: #444444;
+  --jp-mirror-editor-def-color: #e82732;
+  --jp-mirror-editor-variable-color: #00CCFF;
+  --jp-mirror-editor-variable-2-color: #598eff;
+  --jp-mirror-editor-variable-3-color: #3bffd0;
+  --jp-mirror-editor-punctuation-color: #3073ff;
+  --jp-mirror-editor-property-color: #abc6ff;
   --jp-mirror-editor-operator-color: #aa22ff;
-  --jp-mirror-editor-comment-color: #408080;
-  --jp-mirror-editor-string-color: #ba2121;
-  --jp-mirror-editor-string-2-color: #708;
-  --jp-mirror-editor-meta-color: #aa22ff;
+  --jp-mirror-editor-comment-color: #404040;
+  --jp-mirror-editor-string-color: #ffff00;
+  --jp-mirror-editor-string-2-color: #ffd994;
+  --jp-mirror-editor-meta-color: #E040FB;
   --jp-mirror-editor-qualifier-color: #555;
-  --jp-mirror-editor-builtin-color: #008000;
-  --jp-mirror-editor-bracket-color: #997;
-  --jp-mirror-editor-tag-color: #170;
-  --jp-mirror-editor-attribute-color: #00c;
-  --jp-mirror-editor-header-color: blue;
-  --jp-mirror-editor-quote-color: #090;
-  --jp-mirror-editor-link-color: #00c;
-  --jp-mirror-editor-error-color: #f00;
-  --jp-mirror-editor-hr-color: #999;
+  --jp-mirror-editor-builtin-color: #63FF51;
+  --jp-mirror-editor-bracket-color: #668696;
+  --jp-mirror-editor-tag-color: #F37735;
+  --jp-mirror-editor-attribute-color: #00CBCC;
+  --jp-mirror-editor-header-color: #00CCFF;
+  --jp-mirror-editor-quote-color:  #FFFF74;
+  --jp-mirror-editor-link-color: #F553BF;
+  --jp-mirror-editor-error-color: #FF4050;
+  --jp-mirror-editor-hr-color: #DBEFEB;
 
   /* Vega extension styles */
 
