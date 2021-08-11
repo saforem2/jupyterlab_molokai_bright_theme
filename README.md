@@ -5,6 +5,7 @@
 A bright colortheme for jupyterlab, originally inspired by monokai
 
 
+
 ## Requirements
 
 * JupyterLab >= 3.0
