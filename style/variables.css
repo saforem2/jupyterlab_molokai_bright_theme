@@ -232,29 +232,34 @@
 
 
   /* Brand - highlighting on cells and active tabs */
-  --jp-brand-color0: var(--base16-blue0);
+  --jp-brand-color0: #00CCFF;
   --jp-brand-color1: var(--base16-blue1);
   --jp-brand-color2: var(--base16-blue2);
   --jp-brand-color3: var(--base16-blue-extra);
+
   /* Accent */
-  --jp-accent-color0: var(--base16-green0);
+  --jp-accent-color0: #B2FF59;
   --jp-accent-color1: var(--base16-green1);
   --jp-accent-color2: var(--base16-green2);
   --jp-accent-color3: var(--base16-green-extra);
+
   /* State colors (warn, error, success, info) */
-  --jp-warn-color0: var(--base16-yellow0);
+  --jp-warn-color0: #FFFF00;
   --jp-warn-color1: var(--base16-yellow1);
   --jp-warn-color2: var(--base16-yellow2);
   --jp-warn-color3: var(--base16-yellow-extra);
-  --jp-error-color0: var(--base16-red0);
+
+  --jp-error-color0: #FF2052;
   --jp-error-color1: var(--base16-red1);
   --jp-error-color2: var(--base16-red2);
   --jp-error-color3: var(--base16-red-extra);
+
   --jp-success-color0: var(--base16-green0);
   --jp-success-color1: var(--base16-green1);
   --jp-success-color2: var(--base16-green2);
   --jp-success-color3: var(--base16-green-extra);
-  --jp-info-color0: var(--base16-cyan0);
+
+  --jp-info-color0: #00CBCC;
   --jp-info-color1: var(--base16-cyan1);
   --jp-info-color2: var(--base16-cyan2);
   --jp-info-color3: var(--base16-cyan-extra);
@@ -264,7 +269,7 @@
   --jp-cell-collapser-width: 8px;
   --jp-cell-collapser-min-height: 20px;
   --jp-cell-collapser-not-active-hover-opacity: 0.6;
-  --jp-cell-editor-background: var(--jp-layout-color1);
+  --jp-cell-editor-background: #111111;
   --jp-cell-editor-border-color: var(--base16-gray-dark);
   --jp-cell-editor-box-shadow: inset 0 0 1px var(--base16-gray-dark);
   --jp-cell-editor-active-background: var(--jp-layout-color1);
@@ -338,7 +343,7 @@
   /* Error: live error detection in cell */
   --jp-mirror-editor-error-color: var(--base16-red1);
   /* Headers in markdown */
-  --jp-mirror-editor-header-color: var(--base16-foreground-light); /* var(--base16-blue1); */
+  --jp-mirror-editor-header-color: #00CCFF;
   --jp-mirror-editor-hr-color: var(--base16-gray);
   /* Keywords: class, def, as, from, import, return, etc */
   --jp-mirror-editor-keyword-color: var(--base16-purple1);
@@ -419,8 +424,8 @@
    --base16-cyan1: #41f9ff;
    --base16-cyan2: #6afaff;
    --base16-cyan-extra: #93fbff;
-   --base16-blue0: #3073ff;
-   --base16-blue1: #598eff;
+   --base16-blue0: #00CCFF;
+   --base16-blue1: #40C4FF;
    --base16-blue2: #82aaff;
    --base16-blue-extra: #abc6ff;
    --base16-magenta0: #ff012c;
@@ -435,31 +440,31 @@
    --base16-gray: #969696;
    --base16-gray-dark: #6e6e6e;
 
-  --jp-mirror-editor-keyword-color: #F92672;
-  --jp-mirror-editor-atom-color: #FF4081;
-  --jp-mirror-editor-number-color: #E040FB;
-  --jp-mirror-editor-def-color: #FF2052;
   /* --jp-mirror-editor-variable-color: #00CCFF; */
-  --jp-mirror-editor-variable-color: var(--base16-foreground-light);
-  --jp-mirror-editor-variable-2-color: #FF79FF;
-  --jp-mirror-editor-variable-3-color: #FFAB40;
+  --jp-mirror-editor-keyword-color:     #F92672;
+  --jp-mirror-editor-atom-color:        #FF4081;
+  --jp-mirror-editor-number-color:      #E040FB;
+  --jp-mirror-editor-def-color:         #B2FF59;
+  --jp-mirror-editor-variable-color:    #EFEFEF;
+  --jp-mirror-editor-variable-2-color:  #FF79FF;
+  --jp-mirror-editor-variable-3-color:  #FFAB40;
   --jp-mirror-editor-punctuation-color: #3073ff;
-  --jp-mirror-editor-property-color: #00CCFF;
-  --jp-mirror-editor-operator-color: #FD971F;
-  --jp-mirror-editor-comment-color: #555555;
-  --jp-mirror-editor-string-color: #ffff00;
-  --jp-mirror-editor-string-2-color: #ffd994;
-  --jp-mirror-editor-meta-color: #76FFFF;
-  --jp-mirror-editor-qualifier-color: #555;
-  --jp-mirror-editor-builtin-color: #63FF51;
-  --jp-mirror-editor-bracket-color: #668696;
-  --jp-mirror-editor-tag-color: #F37735;
-  --jp-mirror-editor-attribute-color: #FF79B0;
-  --jp-mirror-editor-header-color: #00CBCC;
-  --jp-mirror-editor-quote-color:  #FFFF74;
-  --jp-mirror-editor-link-color: #06D6A0;
-  --jp-mirror-editor-error-color: #FF4050;
-  --jp-mirror-editor-hr-color: #DBEFEB;
+  --jp-mirror-editor-property-color:    #00CCFF;
+  --jp-mirror-editor-operator-color:    #FD971F;
+  --jp-mirror-editor-comment-color:     #555555;
+  --jp-mirror-editor-string-color:      #ffff00;
+  --jp-mirror-editor-string-2-color:    #ffd994;
+  --jp-mirror-editor-meta-color:        #76FFFF;
+  --jp-mirror-editor-qualifier-color:   #555;
+  --jp-mirror-editor-builtin-color:     #63FF51;
+  --jp-mirror-editor-bracket-color:     #668696;
+  --jp-mirror-editor-tag-color:         #F37735;
+  --jp-mirror-editor-attribute-color:   #FF79B0;
+  --jp-mirror-editor-header-color:      #00CBCC;
+  --jp-mirror-editor-quote-color:       #FFFF74;
+  --jp-mirror-editor-link-color:        #06D6A0;
+  --jp-mirror-editor-error-color:       #FF4050;
+  --jp-mirror-editor-hr-color:          #DBEFEB;
 
   --jp-editor-selected-focused-background: var(--jp-layout-color0);
   --jp-editor-cursor-color: var(--jp-inverse-layout-color0);
