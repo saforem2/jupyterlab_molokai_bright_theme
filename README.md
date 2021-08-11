@@ -4,7 +4,7 @@
 
 A bright colortheme for jupyterlab, originally inspired by monokai
 
-![asssets/screenshot.png](assets/screenshot.png)
+
 
 ## Requirements
 
