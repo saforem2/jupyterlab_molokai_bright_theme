@@ -269,13 +269,13 @@
   --jp-cell-collapser-width: 8px;
   --jp-cell-collapser-min-height: 20px;
   --jp-cell-collapser-not-active-hover-opacity: 0.6;
-  --jp-cell-editor-background: #111111;
+  --jp-cell-editor-background: #202020;
   --jp-cell-editor-border-color: var(--base16-gray-dark);
   --jp-cell-editor-box-shadow: inset 0 0 1px var(--base16-gray-dark);
   --jp-cell-editor-active-background: var(--jp-layout-color1);
   --jp-cell-editor-active-border-color: var(--jp-layout-color4); /* var(--base16-gray); */
   --jp-cell-prompt-width: 64px;
-  --jp-cell-prompt-font-family: "Source Code Pro", monospace;
+  --jp-cell-prompt-font-family: "VictorMono Nerd Font", "Source Code Pro", monospace;
   --jp-cell-prompt-letter-spacing: 0px;
   --jp-cell-prompt-opacity: 1;
   --jp-cell-prompt-not-active-opacity: 1;
